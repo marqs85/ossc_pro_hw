@@ -1,0 +1,67 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AVCC1v8
+K power-flag
+$ENDCMP
+#
+$CMP AVCC2v5
+K power-flag
+$ENDCMP
+#
+$CMP AVCC3v3
+K power-flag
+$ENDCMP
+#
+$CMP DVDD1v1
+K power-flag
+$ENDCMP
+#
+$CMP DVDD1v2
+K power-flag
+$ENDCMP
+#
+$CMP DVDD1v8
+K power-flag
+$ENDCMP
+#
+$CMP DVDD2v5
+K power-flag
+$ENDCMP
+#
+$CMP DVDD3v3
+K power-flag
+$ENDCMP
+#
+$CMP DVDD5
+K power-flag
+$ENDCMP
+#
+$CMP PESD12VL2BT
+D Dual bidirectional transil, Suppressor for ESD protection
+K ESD protection suppression transient
+$ENDCMP
+#
+$CMP PESD3V3X4UHC
+D Quadruple unidirectional transil, Suppressor for ESD protection
+K ESD protection suppression transient
+$ENDCMP
+#
+$CMP PESD5V0U4BW
+D Quad bidirectional transil, Suppressor for ESD protection, 5V Standoff, 4 Channels
+K ESD protection suppression transient
+$ENDCMP
+#
+$CMP PESD5V0V4UW
+D Quadruple unidirectional transil, Suppressor for ESD protection
+K ESD protection suppression transient
+$ENDCMP
+#
+$CMP VREFCA_LPDDR2
+K power-flag
+$ENDCMP
+#
+$CMP VREFDQ_LPDDR2
+K power-flag
+$ENDCMP
+#
+#End Doc Library
