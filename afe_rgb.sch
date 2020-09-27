@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 18
+Sheet 4 18
 Title "OSSC Pro"
-Date "2020-09-02"
-Rev "1.2"
+Date "2020-09-17"
+Rev "1.3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1296,10 +1296,6 @@ Text GLabel 9750 1600 2    50   Output ~ 0
 ISL_VSYNC
 Text GLabel 9750 1500 2    50   Output ~ 0
 ISL_INT#
-Text GLabel 9750 1400 2    50   Output ~ 0
-ISL_DE
-Text GLabel 9750 1300 2    50   Output ~ 0
-ISL_FID
 $Comp
 L power:GND #PWR0210
 U 1 1 5F5B3211
@@ -2037,4 +2033,6 @@ Text Notes 2950 950  0    50   ~ 0
 I2C_addr: 0x9a
 Text Notes 2900 4300 0    50   ~ 0
 AVCC1v8: max. 375mA\nAVCC3v3: max. 115mA\nDVDD1v8: max. 170mA\nDVDD3v3: max. 60mA
+NoConn ~ 9750 1300
+NoConn ~ 9750 1400
 $EndSCHEMATC

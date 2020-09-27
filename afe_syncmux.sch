@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 18
+Sheet 2 18
 Title "OSSC Pro"
-Date "2020-09-02"
-Rev "1.2"
+Date "2020-09-17"
+Rev "1.3"
 Comp ""
 Comment1 ""
 Comment2 ""

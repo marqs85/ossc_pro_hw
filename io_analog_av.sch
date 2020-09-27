@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 18
+Sheet 13 18
 Title "OSSC Pro"
-Date "2020-09-02"
-Rev "1.2"
+Date "2020-09-17"
+Rev "1.3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -585,7 +585,7 @@ U 1 1 5F551C54
 P 8550 5450
 F 0 "U20" H 8550 5965 50  0000 C CNN
 F 1 "FSA2275UMX" H 8550 5874 50  0000 C CNN
-F 2 "" H 8550 5450 50  0001 C CNN
+F 2 "custom_components:FSA2275UMX" H 8550 5450 50  0001 C CNN
 F 3 "" H 8550 5450 50  0001 C CNN
 	1    8550 5450
 	1    0    0    -1  

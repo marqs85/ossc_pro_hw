@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 18
+Sheet 12 18
 Title "OSSC Pro"
-Date "2020-09-02"
-Rev "1.2"
+Date "2020-09-17"
+Rev "1.3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -152,8 +152,6 @@ Text Label 1250 4600 0    50   ~ 0
 HDMIRX_I2S2
 Text Label 1250 4700 0    50   ~ 0
 HDMIRX_I2S3
-Text GLabel 1800 4900 0    50   Output ~ 0
-HDMIRX_MCLK
 Text GLabel 1800 5000 0    50   Output ~ 0
 HDMIRX_I2S_BCK
 Text GLabel 1800 5200 0    50   Output ~ 0
@@ -625,8 +623,6 @@ Text Label 7650 4800 0    50   ~ 0
 HDMIRX_I2S3
 Text GLabel 8250 5000 0    50   Input ~ 0
 HDMITX_I2S_WS
-Text GLabel 8250 5100 0    50   Input ~ 0
-HDMITX_MCLK
 Text GLabel 8250 5500 0    50   Input ~ 0
 HDMITX_I2S_BCK
 $Comp
@@ -1846,4 +1842,16 @@ Text Notes 8800 1800 0    50   ~ 0
 I2C_addr: 0x72
 Text Notes 8650 6200 0    50   ~ 0
 AVCC1v8: max. 42mA\nDVDD1v8: max. 100mA\nDVDD3v3: max. 1mA
+NoConn ~ 1800 4900
+$Comp
+L power:GND #PWR0531
+U 1 1 5F75664F
+P 8250 5100
+F 0 "#PWR0531" H 8250 4850 50  0001 C CNN
+F 1 "GND" V 8255 4972 50  0001 R CNN
+F 2 "" H 8250 5100 50  0001 C CNN
+F 3 "" H 8250 5100 50  0001 C CNN
+	1    8250 5100
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

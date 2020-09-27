@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 18
+Sheet 9 18
 Title "OSSC Pro"
-Date "2020-09-02"
-Rev "1.2"
+Date "2020-09-17"
+Rev "1.3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -41,32 +41,20 @@ F 3 "" H 8250 5050 50  0001 C CNN
 $EndComp
 Text GLabel 2200 2300 0    50   Input ~ 0
 IR_RX
-Text GLabel 2200 2400 0    50   Input ~ 0
-CLK27
-Text GLabel 2200 2500 0    50   Input ~ 0
-HDMIRX_MCLK
 Text GLabel 2200 2600 0    50   Input ~ 0
 HDMIRX_PCLK
 Text GLabel 2200 2700 0    50   Input ~ 0
-EXP_IO_2-CLKIN0_N
+EXP_IO_A_1|CLKIN_N
 Text GLabel 2200 2800 0    50   Input ~ 0
-EXP_IO_0-CLKIN0_P
+EXP_IO_A_0|CLKIN_P
 Text GLabel 2200 2900 0    50   Input ~ 0
 SI_PCLK
 Text GLabel 2200 3000 0    50   Input ~ 0
 SI_CLK_XTRA1
-Text GLabel 2200 3100 0    50   Input ~ 0
-BTN0
-Text GLabel 2200 3200 0    50   Input ~ 0
-BTN1
-Text GLabel 2200 3300 0    50   Input ~ 0
-LSx8_DIR
-Text GLabel 2200 3400 0    50   Input ~ 0
-LSx16_DIR
 Text GLabel 2200 3500 0    50   Input ~ 0
-EXP_IO_17_1v2
+EXP_IO_B_18_1v2
 Text GLabel 2200 3600 0    50   Input ~ 0
-EXP_IO_19_1v2
+EXP_IO_B_19_1v2
 Text GLabel 2200 3800 0    50   Input ~ 0
 SD_DETECT
 Text GLabel 2200 3900 0    50   Output ~ 0
@@ -489,4 +477,16 @@ Text Notes 2550 5000 0    50   ~ 0
 VCCIO = 1.2V / 3.3V
 Text Notes 8000 5800 0    50   ~ 0
 VCCIO = 3.3V
+Text GLabel 2200 2500 0    50   Input ~ 0
+BTN5
+Text GLabel 2200 2400 0    50   Input ~ 0
+BTN4
+Text GLabel 2200 3100 0    50   Input ~ 0
+CLK27_1v2
+Text GLabel 2200 3200 0    50   Output ~ 0
+LED0
+Text GLabel 2200 3300 0    50   Output ~ 0
+LED1
+Text GLabel 2200 3400 0    50   Output ~ 0
+LED2
 $EndSCHEMATC

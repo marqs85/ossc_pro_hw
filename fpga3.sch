@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 18
+Sheet 8 18
 Title "OSSC Pro"
-Date "2020-09-02"
-Rev "1.2"
+Date "2020-09-17"
+Rev "1.3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -26,49 +26,22 @@ F 3 "" H 4050 4150 50  0001 C CNN
 	5    4000 2650
 	1    0    0    -1  
 $EndComp
-$Comp
-L custom_components:5CEFA5F23 P1
-U 6 1 5F67EFD3
-P 3850 6600
-AR Path="/5F67EFD3" Ref="P1"  Part="6" 
-AR Path="/5F5CFBF3/5F67EFD3" Ref="P1"  Part="6" 
-F 0 "P1" H 3850 7715 50  0000 C CNN
-F 1 "5CEFA5F23" H 3850 7624 50  0000 C CNN
-F 2 "custom_components:5CEFA5F23" H 3900 8100 50  0001 C CNN
-F 3 "" H 3900 8100 50  0001 C CNN
-	6    3850 6600
-	1    0    0    -1  
-$EndComp
-Text GLabel 2850 950  0    50   Input ~ 0
-BTN3
-Text GLabel 2850 1050 0    50   Input ~ 0
-BTN4
-Text GLabel 2850 1150 0    50   Input ~ 0
-BTN5
-Text GLabel 2850 1250 0    50   Output ~ 0
-HDMITX_5V_EN
-Text GLabel 2850 1350 0    50   Output ~ 0
-LED0
-Text GLabel 2850 1450 0    50   Output ~ 0
-LED1
-Text GLabel 2850 1550 0    50   Output ~ 0
-LED2
 Text GLabel 2850 1650 0    50   Output ~ 0
-EXP_IO_8_1v2
+EXP_IO_B_8_1v2
 Text GLabel 2850 1750 0    50   Output ~ 0
-EXP_IO_9_1v2
+EXP_IO_B_9_1v2
 Text GLabel 2850 1850 0    50   Output ~ 0
-EXP_IO_10_1v2
+EXP_IO_B_10_1v2
 Text GLabel 2850 1950 0    50   Output ~ 0
-EXP_IO_11_1v2
+EXP_IO_B_11_1v2
 Text GLabel 2850 2050 0    50   Output ~ 0
-EXP_IO_12_1v2
+EXP_IO_B_12_1v2
 Text GLabel 2850 2150 0    50   Output ~ 0
-EXP_IO_13_1v2
+EXP_IO_B_13_1v2
 Text GLabel 2850 2250 0    50   Output ~ 0
-EXP_IO_14_1v2
+EXP_IO_B_14_1v2
 Text GLabel 2850 2350 0    50   Output ~ 0
-EXP_IO_15_1v2
+EXP_IO_B_15_1v2
 $Comp
 L power:GND #PWR0246
 U 1 1 5F60AB16
@@ -205,17 +178,6 @@ F 3 "" H 5100 3550 50  0001 C CNN
 $EndComp
 Text GLabel 5800 4150 2    50   Input ~ 0
 SI_INT#
-$Comp
-L Device:R_Small R60
-U 1 1 5F6410B2
-P 5700 3950
-F 0 "R60" H 5759 3996 50  0000 L CNN
-F 1 "10k" H 5759 3905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5700 3950 50  0001 C CNN
-F 3 "~" H 5700 3950 50  0001 C CNN
-	1    5700 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5700 4150 5700 4050
 Connection ~ 5700 4150
@@ -246,8 +208,6 @@ Text GLabel 5100 2950 2    50   Output ~ 0
 T_CKE_0
 Text GLabel 5100 2850 2    50   Output ~ 0
 T_DQS_1
-Text GLabel 5100 2750 2    50   Output ~ 0
-T_CKE_1
 Text GLabel 5100 2650 2    50   Output ~ 0
 T_DQS#_1
 Text GLabel 5100 2550 2    50   Output ~ 0
@@ -285,48 +245,24 @@ Text GLabel 5100 1450 2    50   Output ~ 0
 T_DQS_0
 Text GLabel 5100 1250 2    50   Output ~ 0
 T_DQS#_0
-Wire Wire Line
-	5100 1350 5750 1350
 Text GLabel 6250 1550 2    50   Input ~ 0
 HDMITX_INT#
-Text GLabel 6250 1350 2    50   Input ~ 0
-HDMIRX_INT#
-$Comp
-L Device:R_Small R47
-U 1 1 5F672149
-P 5750 1200
-F 0 "R47" H 5809 1246 50  0000 L CNN
-F 1 "10k" H 5809 1155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5750 1200 50  0001 C CNN
-F 3 "~" H 5750 1200 50  0001 C CNN
-	1    5750 1200
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Small R48
 U 1 1 5F675E19
 P 6050 1200
 F 0 "R48" H 6109 1246 50  0000 L CNN
-F 1 "10k" H 6109 1155 50  0000 L CNN
+F 1 "2.2k" H 6109 1155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 6050 1200 50  0001 C CNN
 F 3 "~" H 6050 1200 50  0001 C CNN
 	1    6050 1200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 1300 5750 1350
-Connection ~ 5750 1350
-Wire Wire Line
-	5750 1350 6250 1350
-Wire Wire Line
 	6050 1300 6050 1550
 Connection ~ 6050 1550
 Wire Wire Line
 	6050 1550 6250 1550
-Wire Wire Line
-	5750 1100 5750 1050
-Wire Wire Line
-	5750 1050 6050 1050
 Wire Wire Line
 	6050 1050 6050 1100
 $Comp
@@ -340,7 +276,6 @@ F 3 "" H 6050 1050 50  0001 C CNN
 	1    6050 1050
 	1    0    0    -1  
 $EndComp
-Connection ~ 6050 1050
 Text GLabel 5100 1150 2    50   Output ~ 0
 T_DQ_3
 Text GLabel 5100 1050 2    50   Output ~ 0
@@ -353,10 +288,6 @@ Text GLabel 2850 5750 0    50   Output ~ 0
 T_CA_2
 Text GLabel 2850 5850 0    50   Output ~ 0
 T_CA_3
-Text GLabel 2850 5950 0    50   Output ~ 0
-EXP_IO_16_1v2-CLKIN1_P
-Text GLabel 2850 6050 0    50   Output ~ 0
-EXP_IO_18_1v2-CLKIN1_N
 Text GLabel 2850 6250 0    50   Output ~ 0
 T_CA_0
 Text GLabel 2850 6350 0    50   Output ~ 0
@@ -373,14 +304,6 @@ Text GLabel 2850 6850 0    50   Output ~ 0
 T_CK#
 Text GLabel 2850 6950 0    50   Output ~ 0
 T_CA_7
-Text GLabel 2850 7050 0    50   Output ~ 0
-EXP_IO_20_1v2
-Text GLabel 2850 7150 0    50   Output ~ 0
-EXP_IO_21_1v2
-Text GLabel 2850 7250 0    50   Output ~ 0
-EXP_IO_22_1v2
-Text GLabel 2850 7450 0    50   Output ~ 0
-EXP_IO_23_1v2
 $Comp
 L power:GND #PWR0258
 U 1 1 5F6BF306
@@ -403,32 +326,12 @@ F 3 "" H 4850 6250 50  0001 C CNN
 	1    4850 6250
 	0    -1   -1   0   
 $EndComp
-Text GLabel 4850 7450 2    50   Output ~ 0
-EXP_IO_24_1v2
-Text GLabel 4850 7250 2    50   Output ~ 0
-EXP_IO_25_1v2
-Text GLabel 4850 6850 2    50   Output ~ 0
-EXP_IO_27_1v2
-Text GLabel 4850 6650 2    50   Output ~ 0
-EXP_IO_28_1v2
-Text GLabel 4850 6550 2    50   Output ~ 0
-EXP_IO_29_1v2
-Text GLabel 4850 6450 2    50   Output ~ 0
-EXP_IO_30_1v2
-Text GLabel 4850 6350 2    50   Output ~ 0
-EXP_IO_31_1v2
-Text GLabel 4850 7050 2    50   Output ~ 0
-EXP_IO_26_1v2
 Text GLabel 4850 7350 2    50   Output ~ 0
 T_CA_8
 Text GLabel 4850 7150 2    50   Output ~ 0
 T_CA_9
 Text GLabel 4850 6950 2    50   Output ~ 0
 T_CS#_0
-Text GLabel 4850 6750 2    50   Output ~ 0
-T_CS#_1
-Text GLabel 2850 850  0    50   Input ~ 0
-BTN2
 Text Notes 3650 4600 0    50   ~ 0
 VCCIO = 1.2V
 Text Notes 3600 7500 0    50   ~ 0
@@ -444,4 +347,103 @@ F 3 "" H 2850 4250 50  0001 C CNN
 	1    2850 4250
 	0    1    1    0   
 $EndComp
+$Comp
+L custom_components:5CEFA5F23 P1
+U 6 1 5F67EFD3
+P 3850 6600
+AR Path="/5F67EFD3" Ref="P1"  Part="6" 
+AR Path="/5F5CFBF3/5F67EFD3" Ref="P1"  Part="6" 
+F 0 "P1" H 3850 7715 50  0000 C CNN
+F 1 "5CEFA5F23" H 3850 7624 50  0000 C CNN
+F 2 "custom_components:5CEFA5F23" H 3900 8100 50  0001 C CNN
+F 3 "" H 3900 8100 50  0001 C CNN
+	6    3850 6600
+	1    0    0    -1  
+$EndComp
+Text GLabel 2850 5950 0    50   Output ~ 0
+EXP_IO_B_16_1v2
+Text GLabel 2850 6050 0    50   Output ~ 0
+EXP_IO_B_17_1v2
+Text GLabel 2850 7050 0    50   Output ~ 0
+EXP_IO_B_20_1v2
+Text GLabel 2850 7150 0    50   Output ~ 0
+EXP_IO_B_21_1v2
+Text GLabel 2850 7250 0    50   Output ~ 0
+EXP_IO_B_22_1v2
+Text GLabel 2850 7450 0    50   Output ~ 0
+EXP_IO_B_23_1v2
+Text GLabel 4850 7250 2    50   Output ~ 0
+EXP_IO_B_25_1v2
+Text GLabel 4850 7050 2    50   Output ~ 0
+EXP_IO_B_26_1v2
+Text GLabel 4850 6850 2    50   Output ~ 0
+EXP_IO_B_27_1v2
+Text GLabel 4850 6650 2    50   Output ~ 0
+EXP_IO_B_28_1v2
+Text GLabel 4850 6550 2    50   Output ~ 0
+EXP_IO_B_29_1v2
+Text GLabel 4850 6450 2    50   Output ~ 0
+EXP_IO_B_30_1v2
+Text GLabel 4850 6350 2    50   Output ~ 0
+EXP_IO_B_31_1v2
+Text GLabel 4850 7450 2    50   Output ~ 0
+EXP_IO_B_24_1v2
+Text GLabel 4850 6750 2    50   Output ~ 0
+LS1_DIR
+Text GLabel 5100 2750 2    50   Output ~ 0
+LS0_DIR
+$Comp
+L Device:R_Small R47
+U 1 1 5FA5EF0E
+P 5750 1200
+AR Path="/5F5CFBF3/5FA5EF0E" Ref="R47"  Part="1" 
+AR Path="/5F568E93/5FA5EF0E" Ref="R?"  Part="1" 
+F 0 "R47" H 5809 1246 50  0000 L CNN
+F 1 "2.2k" H 5809 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5750 1200 50  0001 C CNN
+F 3 "~" H 5750 1200 50  0001 C CNN
+	1    5750 1200
+	1    0    0    -1  
+$EndComp
+Text GLabel 6250 1350 2    50   Input ~ 0
+HDMIRX_INT#
+Wire Wire Line
+	5750 1100 5750 1050
+Wire Wire Line
+	5750 1050 6050 1050
+Connection ~ 6050 1050
+Wire Wire Line
+	6250 1350 5750 1350
+Wire Wire Line
+	5750 1300 5750 1350
+Connection ~ 5750 1350
+Wire Wire Line
+	5750 1350 5100 1350
+$Comp
+L Device:R_Small R60
+U 1 1 5F6410B2
+P 5700 3950
+F 0 "R60" H 5759 3996 50  0000 L CNN
+F 1 "2.2k" H 5759 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5700 3950 50  0001 C CNN
+F 3 "~" H 5700 3950 50  0001 C CNN
+	1    5700 3950
+	1    0    0    -1  
+$EndComp
+Text GLabel 2850 1550 0    50   Output ~ 0
+EXP_IO_B_7_1v2
+Text GLabel 2850 1450 0    50   Output ~ 0
+EXP_IO_B_6_1v2
+Text GLabel 2850 1350 0    50   Output ~ 0
+EXP_IO_B_5_1v2
+Text GLabel 2850 1250 0    50   Output ~ 0
+EXP_IO_B_4_1v2
+Text GLabel 2850 1150 0    50   Output ~ 0
+EXP_IO_B_3_1v2
+Text GLabel 2850 1050 0    50   Output ~ 0
+EXP_IO_B_2_1v2
+Text GLabel 2850 950  0    50   Output ~ 0
+EXP_IO_B_1_1v2
+Text GLabel 2850 850  0    50   Output ~ 0
+EXP_IO_B_0_1v2
 $EndSCHEMATC

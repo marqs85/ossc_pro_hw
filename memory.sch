@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 18
+Sheet 17 18
 Title "OSSC Pro"
-Date "2020-09-02"
-Rev "1.2"
+Date "2020-09-17"
+Rev "1.3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -20,7 +20,7 @@ P 2000 1150
 AR Path="/5F2B5CEE" Ref="U9"  Part="1" 
 AR Path="/5F2B3EC5/5F2B5CEE" Ref="U9"  Part="1" 
 F 0 "U9" H 2900 1537 60  0000 C CNN
-F 1 "MT42L64M32D1TK-18 AAT" H 2900 1431 60  0000 C CNN
+F 1 "MT42L64M32D2HE-18 AAT:D" H 2900 1431 60  0000 C CNN
 F 2 "custom_components:EDB1332BDBH-1DAAT-F" H 2900 1390 60  0001 C CNN
 F 3 "" H 2000 1150 60  0000 C CNN
 	1    2000 1150
@@ -33,7 +33,7 @@ P 8500 1050
 AR Path="/5F2B75C4" Ref="U9"  Part="2" 
 AR Path="/5F2B3EC5/5F2B75C4" Ref="U9"  Part="2" 
 F 0 "U9" H 9400 1437 60  0000 C CNN
-F 1 "MT42L64M32D1TK-18 AAT" H 9400 1331 60  0000 C CNN
+F 1 "MT42L64M32D2HE-18 AAT:D" H 9400 1331 60  0000 C CNN
 F 2 "custom_components:EDB1332BDBH-1DAAT-F" H 9400 1290 60  0001 C CNN
 F 3 "" H 8500 1050 60  0000 C CNN
 	2    8500 1050
@@ -417,17 +417,6 @@ F 3 "~" H 5000 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R80
-U 1 1 5FBF4CC7
-P 5800 5500
-F 0 "R80" H 5859 5546 50  0000 L CNN
-F 1 "4.7k" H 5859 5455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5800 5500 50  0001 C CNN
-F 3 "~" H 5800 5500 50  0001 C CNN
-	1    5800 5500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small R85
 U 1 1 5FBFCD16
 P 1900 5550
@@ -797,8 +786,6 @@ Text GLabel 2000 2550 0    50   Input ~ 0
 T_CKE_0
 Text GLabel 2000 2850 0    50   Input ~ 0
 T_CS#_0
-Text GLabel 2000 2950 0    50   Input ~ 0
-T_CS#_1
 Text GLabel 2000 3150 0    50   Input ~ 0
 T_DM_0
 Text GLabel 2000 3250 0    50   Input ~ 0
@@ -889,12 +876,8 @@ Text GLabel 3800 3150 2    50   Input ~ 0
 T_DQ_20
 Text GLabel 4950 5400 0    50   Input ~ 0
 T_CKE_0
-Text GLabel 5750 5400 0    50   Input ~ 0
-T_CKE_1
 Wire Wire Line
 	5000 5400 4950 5400
-Wire Wire Line
-	5800 5400 5750 5400
 $Comp
 L power:GND #PWR0663
 U 1 1 5F641BA2
@@ -904,17 +887,6 @@ F 1 "GND" H 5005 5427 50  0001 C CNN
 F 2 "" H 5000 5600 50  0001 C CNN
 F 3 "" H 5000 5600 50  0001 C CNN
 	1    5000 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0664
-U 1 1 5F642106
-P 5800 5600
-F 0 "#PWR0664" H 5800 5350 50  0001 C CNN
-F 1 "GND" H 5805 5427 50  0001 C CNN
-F 2 "" H 5800 5600 50  0001 C CNN
-F 3 "" H 5800 5600 50  0001 C CNN
-	1    5800 5600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1817,10 +1789,10 @@ F 3 "~" H 4100 5650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4100 5650 3500 5650
-Text GLabel 2000 2650 0    50   Input ~ 0
-T_CKE_1
 Text Notes 2450 4650 0    50   ~ 0
 DVDD1v2: max. 201mA\nDVDD1v8: max. 20mA
 Text Notes 8150 6350 0    50   ~ 0
 DVDD3v3: max. 20mA
+NoConn ~ 2000 2650
+NoConn ~ 2000 2950
 $EndSCHEMATC

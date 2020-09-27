@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 18
+Sheet 6 18
 Title "OSSC Pro"
-Date "2020-09-02"
-Rev "1.2"
+Date "2020-09-17"
+Rev "1.3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -34,8 +34,6 @@ Text GLabel 6950 2050 0    50   Output ~ 0
 ISL_EXT_PCLK
 Text GLabel 6950 2150 0    50   Output ~ 0
 FPGA_PCLK1x
-Text GLabel 6950 2350 0    50   Input ~ 0
-ISL_FID
 Text GLabel 6950 2550 0    50   Input ~ 0
 ISL_R7
 Text GLabel 6950 2650 0    50   Input ~ 0
@@ -86,8 +84,10 @@ Text GLabel 6950 4850 0    50   Input ~ 0
 ISL_B0
 Text GLabel 6950 4950 0    50   Input ~ 0
 ISL_HS
-Text GLabel 6950 5050 0    50   Input ~ 0
-ISL_DE
 Text Notes 7550 5100 0    50   ~ 0
 VCCIO = 3.3V
+Text GLabel 6950 2350 0    50   Input ~ 0
+BTN0
+Text GLabel 6950 5050 0    50   Input ~ 0
+BTN1
 $EndSCHEMATC

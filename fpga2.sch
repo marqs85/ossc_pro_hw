@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 18
+Sheet 7 18
 Title "OSSC Pro"
-Date "2020-09-02"
-Rev "1.2"
+Date "2020-09-17"
+Rev "1.3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -168,21 +168,15 @@ HDMITX_I2S_BCK
 Text GLabel 2450 5250 0    50   Output ~ 0
 HDMITX_SPDIF
 Text GLabel 2450 5350 0    50   Output ~ 0
-EXP_IO_1
+EXP_IO_A_2
 Text GLabel 2450 5450 0    50   Output ~ 0
-EXP_IO_3
+EXP_IO_A_3
 Text GLabel 2450 5550 0    50   Output ~ 0
-EXP_IO_4
+EXP_IO_A_4
 Text GLabel 2450 5650 0    50   Output ~ 0
-EXP_IO_5
-Text GLabel 2450 5750 0    50   Output ~ 0
-EXP_IO_6
-Text GLabel 2450 5850 0    50   Output ~ 0
-EXP_IO_7
+EXP_IO_A_5
 Text GLabel 6250 2350 0    50   Output ~ 0
 HDMITX_PCLK
-Text GLabel 6250 2450 0    50   Output ~ 0
-HDMITX_MCLK
 Text GLabel 6250 2650 0    50   Output ~ 0
 HDMITX_R7
 Text GLabel 6250 2750 0    50   Output ~ 0
@@ -227,4 +221,10 @@ Text Notes 3000 5900 0    50   ~ 0
 VCCIO = 3.3V
 Text Notes 7050 4700 0    50   ~ 0
 VCCIO = 3.3V
+Text GLabel 2450 5750 0    50   Input ~ 0
+BTN2
+Text GLabel 2450 5850 0    50   Input ~ 0
+BTN3
+Text GLabel 6250 2450 0    50   Output ~ 0
+HDMITX_5V_EN
 $EndSCHEMATC
