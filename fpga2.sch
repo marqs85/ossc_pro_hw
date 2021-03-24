@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 18
 Title "OSSC Pro"
-Date "2020-09-17"
-Rev "1.3"
+Date "2021-03-09"
+Rev "1.4"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -96,7 +96,7 @@ HDMIRX_DE
 Text GLabel 2450 4450 0    50   Input ~ 0
 HDMIRX_I2S0
 Text GLabel 2450 4350 0    50   Output ~ 0
-HDMIRX_RESET#
+HDMI_RESET#
 Text GLabel 2450 4550 0    50   Input ~ 0
 HDMIRX_I2S_WS
 Text GLabel 2450 4650 0    50   Input ~ 0

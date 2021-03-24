@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 15 18
 Title "OSSC Pro"
-Date "2020-09-17"
-Rev "1.3"
+Date "2021-03-09"
+Rev "1.4"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -513,9 +513,9 @@ F 3 "" H 4150 4300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 4000 3900 0    50   Input ~ 0
-LS1_DIR
+LS1_DIR_1v2
 Text GLabel 4150 6300 0    50   Input ~ 0
-LS1_DIR
+LS1_DIR_1v2
 Wire Wire Line
 	4150 5100 3500 5100
 Wire Wire Line
@@ -1451,13 +1451,13 @@ F 3 "" H 8250 6000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 8250 6300 0    50   Input ~ 0
-LS0_DIR
+LS0_DIR_1v2
 Wire Wire Line
 	8150 3900 8250 3900
 Wire Wire Line
 	8250 3900 8250 4000
 Text GLabel 8150 3900 0    50   Input ~ 0
-LS0_DIR
+LS0_DIR_1v2
 Wire Wire Line
 	8250 4500 7600 4500
 Wire Wire Line

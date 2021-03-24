@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 13 18
 Title "OSSC Pro"
-Date "2020-09-17"
-Rev "1.3"
+Date "2021-03-09"
+Rev "1.4"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -40,7 +40,7 @@ L custom_components:2xRCA_CONN J14
 U 1 1 5F592E70
 P 4350 4400
 F 0 "J14" H 4300 4900 50  0000 L CNN
-F 1 "PJRAN2X1U01X" H 4100 4800 50  0000 L CNN
+F 1 "PJRAN2X1U02X" H 4100 4800 50  0000 L CNN
 F 2 "custom_components:2xRCA_CONN" H 4350 4400 50  0001 C CNN
 F 3 "DOCUMENTATION" H 4350 4400 50  0001 C CNN
 	1    4350 4400

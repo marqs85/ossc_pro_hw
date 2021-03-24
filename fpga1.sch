@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 18
 Title "OSSC Pro"
-Date "2020-09-17"
-Rev "1.3"
+Date "2021-03-09"
+Rev "1.4"
 Comp ""
 Comment1 ""
 Comment2 ""

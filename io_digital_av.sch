@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 14 18
 Title "OSSC Pro"
-Date "2020-09-17"
-Rev "1.3"
+Date "2021-03-09"
+Rev "1.4"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -904,7 +904,7 @@ L Device:Q_PMOS_GSD Q7
 U 1 1 5F645E32
 P 2000 3150
 F 0 "Q7" V 2200 3000 50  0000 C CNN
-F 1 "AO3415" V 2200 3400 50  0000 C CNN
+F 1 "AOSS21115C" V 2200 3400 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2200 3250 50  0001 C CNN
 F 3 "~" H 2000 3150 50  0001 C CNN
 	1    2000 3150

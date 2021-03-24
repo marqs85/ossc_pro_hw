@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 18
 Title "OSSC Pro"
-Date "2020-09-17"
-Rev "1.3"
+Date "2021-03-09"
+Rev "1.4"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -239,8 +239,6 @@ Text GLabel 5100 1750 2    50   Output ~ 0
 T_DQ_6
 Text GLabel 5100 1650 2    50   Output ~ 0
 T_DQ_4
-Wire Wire Line
-	5100 1550 6050 1550
 Text GLabel 5100 1450 2    50   Output ~ 0
 T_DQS_0
 Text GLabel 5100 1250 2    50   Output ~ 0
@@ -250,30 +248,23 @@ HDMITX_INT#
 $Comp
 L Device:R_Small R48
 U 1 1 5F675E19
-P 6050 1200
-F 0 "R48" H 6109 1246 50  0000 L CNN
-F 1 "2.2k" H 6109 1155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 6050 1200 50  0001 C CNN
-F 3 "~" H 6050 1200 50  0001 C CNN
-	1    6050 1200
+P 6000 1650
+F 0 "R48" H 6059 1696 50  0000 L CNN
+F 1 "6.8k" H 6059 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6000 1650 50  0001 C CNN
+F 3 "~" H 6000 1650 50  0001 C CNN
+	1    6000 1650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6050 1300 6050 1550
-Connection ~ 6050 1550
-Wire Wire Line
-	6050 1550 6250 1550
-Wire Wire Line
-	6050 1050 6050 1100
 $Comp
 L custom_components:DVDD1v2 #PWR0257
 U 1 1 5F67DE37
-P 6050 1050
-F 0 "#PWR0257" H 6050 900 50  0001 C CNN
-F 1 "DVDD1v2" H 6065 1223 50  0000 C CNN
-F 2 "" H 6050 1050 50  0001 C CNN
-F 3 "" H 6050 1050 50  0001 C CNN
-	1    6050 1050
+P 5750 1050
+F 0 "#PWR0257" H 5750 900 50  0001 C CNN
+F 1 "DVDD1v2" H 5765 1223 50  0000 C CNN
+F 2 "" H 5750 1050 50  0001 C CNN
+F 3 "" H 5750 1050 50  0001 C CNN
+	1    5750 1050
 	1    0    0    -1  
 $EndComp
 Text GLabel 5100 1150 2    50   Output ~ 0
@@ -389,9 +380,9 @@ EXP_IO_B_31_1v2
 Text GLabel 4850 7450 2    50   Output ~ 0
 EXP_IO_B_24_1v2
 Text GLabel 4850 6750 2    50   Output ~ 0
-LS1_DIR
+LS1_DIR_1v2
 Text GLabel 5100 2750 2    50   Output ~ 0
-LS0_DIR
+LS0_DIR_1v2
 $Comp
 L Device:R_Small R47
 U 1 1 5FA5EF0E
@@ -409,9 +400,6 @@ Text GLabel 6250 1350 2    50   Input ~ 0
 HDMIRX_INT#
 Wire Wire Line
 	5750 1100 5750 1050
-Wire Wire Line
-	5750 1050 6050 1050
-Connection ~ 6050 1050
 Wire Wire Line
 	6250 1350 5750 1350
 Wire Wire Line
@@ -446,4 +434,35 @@ Text GLabel 2850 950  0    50   Output ~ 0
 EXP_IO_B_1_1v2
 Text GLabel 2850 850  0    50   Output ~ 0
 EXP_IO_B_0_1v2
+$Comp
+L Device:R_Small R139
+U 1 1 607631E3
+P 6000 1850
+F 0 "R139" H 6059 1896 50  0000 L CNN
+F 1 "4.02k" H 6059 1805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6000 1850 50  0001 C CNN
+F 3 "~" H 6000 1850 50  0001 C CNN
+	1    6000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0410
+U 1 1 60764413
+P 6000 1950
+F 0 "#PWR0410" H 6000 1700 50  0001 C CNN
+F 1 "GND" V 6005 1822 50  0001 R CNN
+F 2 "" H 6000 1950 50  0001 C CNN
+F 3 "" H 6000 1950 50  0001 C CNN
+	1    6000 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 1550 6000 1550
+Wire Wire Line
+	6000 1750 5800 1750
+Wire Wire Line
+	5800 1750 5800 1550
+Wire Wire Line
+	5800 1550 5100 1550
+Connection ~ 6000 1750
 $EndSCHEMATC
