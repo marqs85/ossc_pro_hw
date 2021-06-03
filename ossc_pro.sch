@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 18
 Title "OSSC Pro"
-Date "2021-04-08"
+Date "2021-06-03"
 Rev "1.4"
 Comp ""
 Comment1 ""
@@ -6184,7 +6184,7 @@ U 1 1 60467048
 P 950 6500
 F 0 "ST1" H 1050 6549 50  0000 L CNN
 F 1 "7773" H 1050 6458 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 950 6500 50  0001 C CNN
+F 2 "custom_components:7773" H 950 6500 50  0001 C CNN
 F 3 "~" H 950 6500 50  0001 C CNN
 	1    950  6500
 	1    0    0    -1  
@@ -6195,7 +6195,7 @@ U 1 1 604674C1
 P 1400 6500
 F 0 "ST2" H 1500 6549 50  0000 L CNN
 F 1 "7773" H 1500 6458 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 1400 6500 50  0001 C CNN
+F 2 "custom_components:7773" H 1400 6500 50  0001 C CNN
 F 3 "~" H 1400 6500 50  0001 C CNN
 	1    1400 6500
 	1    0    0    -1  

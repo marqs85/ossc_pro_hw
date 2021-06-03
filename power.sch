@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 18 18
 Title "OSSC Pro"
-Date "2021-04-08"
+Date "2021-06-03"
 Rev "1.4"
 Comp ""
 Comment1 ""
@@ -90,7 +90,7 @@ U 1 1 5FC2C2ED
 P 3100 2000
 F 0 "D3" V 3054 2080 50  0000 L CNN
 F 1 "BZX84C5V1/SOT" V 3145 2080 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3100 2000 50  0001 C CNN
+F 2 "Diode_SMD:D_SOT-23_ANK" H 3100 2000 50  0001 C CNN
 F 3 "~" H 3100 2000 50  0001 C CNN
 	1    3100 2000
 	0    1    1    0   
@@ -1373,7 +1373,7 @@ U 1 1 6047027E
 P 1150 1700
 F 0 "J16" H 1207 2025 50  0000 C CNN
 F 1 "PJ-037A" H 1207 1934 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1200 1660 50  0001 C CNN
+F 2 "custom_components:BarrelJack_2pin_Horizontal" H 1200 1660 50  0001 C CNN
 F 3 "~" H 1200 1660 50  0001 C CNN
 	1    1150 1700
 	1    0    0    -1  

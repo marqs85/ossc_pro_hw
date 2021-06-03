@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 12 18
 Title "OSSC Pro"
-Date "2021-04-08"
+Date "2021-06-03"
 Rev "1.4"
 Comp ""
 Comment1 ""
@@ -118,7 +118,7 @@ HDMIRX_HPA
 Text GLabel 1800 4000 0    50   Output ~ 0
 HDMIRX_HSYNC
 Text GLabel 1800 4200 0    50   Output ~ 0
-HDMIRX_INT#
+HDMI_INT#
 Text GLabel 1550 4350 0    50   Output ~ 0
 HDMIRX_I2S0
 Wire Wire Line
@@ -618,7 +618,7 @@ HDMITX_C-
 Text GLabel 9950 4750 2    50   Output ~ 0
 HDMITX_C+
 Text GLabel 9950 5550 2    50   Output ~ 0
-HDMITX_INT#
+HDMI_INT#
 $Comp
 L Device:C_Small C98
 U 1 1 5F588525
