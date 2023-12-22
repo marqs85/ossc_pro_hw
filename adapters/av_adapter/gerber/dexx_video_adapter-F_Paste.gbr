@@ -1,15 +1,27 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,6.0.4+dfsg-1+b1*%
-%TF.CreationDate,2022-07-06T22:38:45+03:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.8+dfsg-1*%
+%TF.CreationDate,2023-12-22T11:35:13+02:00*%
 %TF.ProjectId,dexx_video_adapter,64657878-5f76-4696-9465-6f5f61646170,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Paste,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 6.0.4+dfsg-1+b1) date 2022-07-06 22:38:45*
+G04 Created by KiCad (PCBNEW 7.0.8+dfsg-1) date 2023-12-22 11:35:13*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
+%ADD10R,0.635000X1.143000*%
+%ADD11R,1.143000X0.635000*%
 G04 APERTURE END LIST*
+D10*
+%TO.C,R2*%
+X52320000Y-47860000D03*
+X50796000Y-47860000D03*
+%TD*%
+D11*
+%TO.C,R1*%
+X48630000Y-47216000D03*
+X48630000Y-48740000D03*
+%TD*%
 M02*

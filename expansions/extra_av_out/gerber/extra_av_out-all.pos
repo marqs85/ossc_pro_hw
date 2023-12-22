@@ -1,0 +1,54 @@
+### Footprint positions - created on 2023-12-11T23:30:53 EET ###
+### Printed by KiCad version 7.0.8+dfsg-1
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                   Package                                    PosX       PosY       Rot  Side
+C1        0.1u                  SM0603_Capa_libcms                      62.7800   -58.8800   90.0000  bottom
+C2        10n                   SM0603_Capa_libcms                      64.4200   -58.8800   90.0000  bottom
+C3        0.1u                  SM0603_Capa_libcms                      91.9080   -70.4800  180.0000  bottom
+C4        10u                   SM0603_Capa_libcms                      91.9280   -63.8400  180.0000  bottom
+C5        0.1u                  SM0603_Capa_libcms                      85.6320   -70.4800    0.0000  bottom
+C7        2.2u                  SM0603_Capa_libcms                      91.9120   -67.1800  180.0000  bottom
+C8        0.1u                  SM0603_Capa_libcms                      91.9180   -65.5100  180.0000  bottom
+C9        2.2u                  SM0603_Capa_libcms                      91.9020   -68.8300    0.0000  bottom
+C10       0.1u                  SM0603_Capa_libcms                      85.6220   -68.8600    0.0000  bottom
+C15       0.1u                  SM0603_Capa_libcms                      68.7200   -55.3000  180.0000  bottom
+C16       0.1u                  SM0603_Capa_libcms                      74.3500   -52.8900  180.0000  bottom
+C17       10n                   SM0603_Capa_libcms                      68.7300   -53.6600  180.0000  bottom
+C18       0.1u                  SM0603_Capa_libcms                      68.7200   -56.9400  180.0000  bottom
+C19       10n                   SM0603_Capa_libcms                      68.7100   -58.5800  180.0000  bottom
+C21       0.1u                  SM0603_Capa_libcms                     113.5400   -73.7000  180.0000  bottom
+C22       0.1u                  SM0603_Capa_libcms                      58.0400   -76.3000   90.0000  bottom
+D2        PESD5V0V4UW           SOT-665                                 68.3900   -78.3500  180.0000  bottom
+D3        PESD12VL2BT           SOT-23                                 100.6000   -70.9775   90.0000  bottom
+D4        PESD5V0U4BW           SOT-665                                 74.7100   -70.8300    0.0000  bottom
+Q1        BC847                 SOT-23                                  61.6500   -71.7775  -90.0000  bottom
+R9        47                    SM0603_Resistor_libcms                  68.6100   -70.5480  -90.0000  bottom
+R10       47                    SM0603_Resistor_libcms                  70.3000   -70.5440   90.0000  bottom
+R11       47                    SM0603_Resistor_libcms                  71.9700   -70.5440   90.0000  bottom
+R12       10k                   SM0603_Resistor_libcms                  58.0180   -71.9200    0.0000  bottom
+R13       4.7k                  SM0603_Resistor_libcms                  58.0180   -73.6400  180.0000  bottom
+C11       2.2n                  SM0603_Capa_libcms                      96.8100   -69.2920   90.0000  top
+C13       2.2n                  SM0603_Capa_libcms                     103.4900   -68.0700    0.0000  top
+C20       1u                    SM0603_Capa_libcms                      77.7000   -50.4600   90.0000  top
+D1        AD1580                SOT-23_Handsoldering                    73.9400   -50.2700  180.0000  top
+FB1       MPZ1608S102ATA00      SM0603_Resistor_libcms                  53.3480   -81.8900    0.0000  top
+FB2       MPZ1608S102ATA00      SM0603_Resistor_libcms                  53.3480   -80.1500    0.0000  top
+J1        Conn_02x25_Odd_Even   PinSocket_2x25_P2.54mm_Horizontal       48.4258   -27.2487    0.0000  top
+J2        SJ1-3533NG            Jack_3.5mm_CUI_SJ1-3533NG_Horizontal   102.6100   -82.1700  180.0000  top
+J3        PLT133/T10W           EAPLRAA4                               115.0000   -76.3450  180.0000  top
+J4        VGA                   VGA_CONN                                77.1200   -76.1300    0.0000  top
+R1        10k                   SM0603_Resistor_libcms                  82.1100   -68.7220   90.0000  top
+R2        470                   SM0603_Resistor_libcms                  98.7500   -67.5680   90.0000  top
+R3        470                   SM0603_Resistor_libcms                 101.0100   -67.5680   90.0000  top
+R4        530                   SM0603_Resistor_libcms                  69.9800   -48.2000  -90.0000  top
+R5        75                    SM0603_Resistor_libcms                  76.6400   -54.2000  180.0000  top
+R6        75                    SM0603_Resistor_libcms                  74.9500   -57.0600    0.0000  top
+R7        75                    SM0603_Resistor_libcms                  72.9800   -60.6900    0.0000  top
+R8        1k                    SM0603_Resistor_libcms                  79.4100   -50.4580  -90.0000  top
+ST1       Screw_Terminal_01x01  7773                                    53.1900   -18.0200  -90.0000  top
+ST2       Screw_Terminal_01x01  7773                                    53.1900   -97.4400  -90.0000  top
+U1        ADV7125KSTZ140        LQFP-48_7x7mm_P0.5mm                    67.0900   -55.7800    0.0000  top
+U2        PCM5142PW             TSSOP-28_4.4x9.7mm_P0.65mm              88.7200   -65.7820  180.0000  top
+U3        74HCT2G17GW           TSOP-6_1.65x3.05mm_P0.95mm              54.9700   -76.6700    0.0000  top
+## End
