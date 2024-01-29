@@ -1,5 +1,5 @@
-### Footprint positions - created on 2023-12-11T23:30:53 EET ###
-### Printed by KiCad version 7.0.8+dfsg-1
+### Footprint positions - created on 2024-01-29T21:56:05 EET ###
+### Printed by KiCad version 7.0.10+dfsg-1
 ## Unit = mm, Angle = deg.
 ## Side : All
 # Ref     Val                   Package                                    PosX       PosY       Rot  Side
@@ -34,7 +34,7 @@ C20       1u                    SM0603_Capa_libcms                      77.7000 
 D1        AD1580                SOT-23_Handsoldering                    73.9400   -50.2700  180.0000  top
 FB1       MPZ1608S102ATA00      SM0603_Resistor_libcms                  53.3480   -81.8900    0.0000  top
 FB2       MPZ1608S102ATA00      SM0603_Resistor_libcms                  53.3480   -80.1500    0.0000  top
-J1        Conn_02x25_Odd_Even   PinSocket_2x25_P2.54mm_Horizontal       48.4258   -27.2487    0.0000  top
+J1        Conn_02x25_Odd_Even   PinSocket_2x25_P2.54mm_Horizontal       48.9258   -27.2487    0.0000  top
 J2        SJ1-3533NG            Jack_3.5mm_CUI_SJ1-3533NG_Horizontal   102.6100   -82.1700  180.0000  top
 J3        PLT133/T10W           EAPLRAA4                               115.0000   -76.3450  180.0000  top
 J4        VGA                   VGA_CONN                                77.1200   -76.1300    0.0000  top
