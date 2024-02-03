@@ -1,15 +1,16 @@
-### Footprint positions - created on 2023-12-22T11:36:09 EET ###
-### Printed by KiCad version 7.0.8+dfsg-1
+### Footprint positions - created on 2024-03-22T13:59:58 EET ###
+### Printed by KiCad version 7.0.11+dfsg-1
 ## Unit = mm, Angle = deg.
 ## Side : All
 # Ref     Val                      Package                                    PosX       PosY       Rot  Side
+D1        1N4148W                  D_SOD-123                               49.9300   -47.3100  180.0000  top
 J1        SCART-F                  SCART_CONN                              68.2500   -23.8150   90.0000  top
 J2        Pr                       CUI_RCJ-022                             51.1800   -55.2000    0.0000  top
 J3        Y                        CUI_RCJ-022                             51.1800   -40.2000    0.0000  top
 J4        Pb                       CUI_RCJ-022                             51.1800   -25.2000    0.0000  top
 J5        AudioJack3               Jack_3.5mm_CUI_SJ1-3533NG_Horizontal    26.5400   -21.0600   90.0000  top
 J6        DB15_Female_HighDensity  VGA_CONN                                32.7000   -48.2500  -90.0000  top
-R1        500                      SM0603_Resistor_libcms                  48.6300   -47.9780  -90.0000  top
-R2        180                      SM0603_Resistor_libcms                  51.5580   -47.8600  180.0000  top
+R1        150                      SM0603_Resistor_libcms                  53.9420   -47.2400  180.0000  top
 SW1       SW_SPDT                  SWITCH_11MA1QS1                         49.2000   -65.6000    0.0000  top
+SW2       SW_DPDT_x2               SW6_OS202011MA0QS1_CNK                  46.6687   -17.8846  180.0000  top
 ## End
