@@ -765,7 +765,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "legacy_av_in.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

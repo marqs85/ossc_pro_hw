@@ -1,9 +1,8 @@
-### Footprint positions - created on 2024-01-28T21:14:18 EET ###
-### Printed by KiCad version 7.0.10+dfsg-1
+### Footprint positions - created on 2024-04-09T00:47:58 EEST ###
+### Printed by KiCad version 7.0.11+dfsg-1
 ## Unit = mm, Angle = deg.
 ## Side : All
 # Ref     Val                   Package                                                 PosX       PosY       Rot  Side
-R9        10k                   SM0603_Resistor_libcms                               96.3680   -67.1400    0.0000  bottom
 C1        0.1u                  C_0402_1005Metric_Pad0.74x0.62mm_HandSolder          64.8700   -60.4500  -90.0000  top
 C2        0.1u                  SM0603_Capa_libcms                                   63.2900   -65.8520   90.0000  top
 C3        0.1u                  SM0603_Capa_libcms                                   66.1200   -65.8420   90.0000  top
@@ -25,8 +24,8 @@ C18       180p                  SM0603_Capa_libcms                              
 C19       82p                   SM0603_Capa_libcms                                   97.5400   -61.8380  -90.0000  top
 C20       47p                   SM0603_Capa_libcms                                  106.7700   -62.8280   90.0000  top
 C21       180p                  SM0603_Capa_libcms                                  100.3980   -62.7900  180.0000  top
-C22       18p                   C_0402_1005Metric_Pad0.74x0.62mm_HandSolder         100.3000   -77.6625  -90.0000  top
-C23       18p                   C_0402_1005Metric_Pad0.74x0.62mm_HandSolder          90.9700   -77.5975  -90.0000  top
+C22       18p                   C_0402_1005Metric_Pad0.74x0.62mm_HandSolder          97.5200   -74.2600  -90.0000  top
+C23       18p                   C_0402_1005Metric_Pad0.74x0.62mm_HandSolder          91.8500   -74.2625   90.0000  top
 C24       10u                   SM0603_Capa_libcms                                   76.1520   -44.7700  180.0000  top
 C25       0.1u                  C_0402_1005Metric_Pad0.74x0.62mm_HandSolder          76.3100   -46.2200  180.0000  top
 C26       10u                   SM0603_Capa_libcms                                   78.8080   -44.7500    0.0000  top
@@ -48,9 +47,9 @@ D4        PESD5V0U4BW           SOT-665                                         
 FB1       FerriteBead_Small     SM0603_Resistor_libcms                               53.5680   -80.0400    0.0000  top
 FB2       FerriteBead_Small     SM0603_Resistor_libcms                               53.5680   -81.7000    0.0000  top
 J1        Conn_02x25_Odd_Even   PinSocket_2x25_P2.54mm_Horizontal                    48.9258   -27.2487    0.0000  top
-J2        Conn_Coaxial          F_Molex_73330-0030_Horizontal                       106.7800   -70.0000  180.0000  top
-J3        PJRAN1X1U04X          PJRAN1X1U04X                                         64.6375   -79.4000    0.0000  top
-J4        MD-40SM               CUI_MD-40SM                                          80.7900   -78.6900    0.0000  top
+J2        Conn_Coaxial          F_Molex_73330-0030_Horizontal                       105.7800   -70.0000  180.0000  top
+J3        PJRAN1X1U04X          PJRAN1X1U04X                                         65.6375   -79.4000    0.0000  top
+J4        MD-40SM               CUI_MD-40SM                                          81.7900   -78.6900    0.0000  top
 L1        560n                  SM0603_Resistor_libcms                               95.3100   -68.7420   90.0000  top
 L2        560n                  SM0603_Resistor_libcms                               95.8700   -61.8420   90.0000  top
 L3        180n                  SM0603_Resistor_libcms                              100.3980   -60.9700  180.0000  top
@@ -63,18 +62,22 @@ R5        24                    SM0603_Resistor_libcms                          
 R6        24                    SM0603_Resistor_libcms                               77.6300   -64.9720   90.0000  top
 R7        51                    SM0603_Resistor_libcms                               70.1000   -63.2480  -90.0000  top
 R8        51                    SM0603_Resistor_libcms                               75.9900   -63.2280  -90.0000  top
-R10       3.3k                  SM0603_Resistor_libcms                               56.9000   -59.8020   90.0000  top
-R11       4.7k                  SM0603_Resistor_libcms                               58.5500   -59.8020   90.0000  top
-R12       1M                    SM0603_Resistor_libcms                               98.4280   -77.1700    0.0000  top
+R9        220k                  SM0603_Resistor_libcms                               99.0100   -68.7420  -90.0000  top
+R10       330                   SM0603_Resistor_libcms                               56.9000   -59.8020   90.0000  top
+R11       470                   SM0603_Resistor_libcms                               58.5500   -59.8020   90.0000  top
+R12       1M                    R_0402_1005Metric_Pad0.72x0.64mm_HandSolder          90.8525   -70.9700    0.0000  top
 R13       10k                   SM0603_Resistor_libcms                               76.4200   -57.7980  -90.0000  top
 R14       100                   SM0603_Resistor_libcms                               79.8800   -57.7880   90.0000  top
+R15       10k                   SM0603_Resistor_libcms                               82.0880   -56.5600    0.0000  top
 R16       200k                  R_0402_1005Metric_Pad0.72x0.64mm_HandSolder          83.8000   -46.3600    0.0000  top
 R17       100k                  R_0402_1005Metric_Pad0.72x0.64mm_HandSolder          81.4500   -45.0100  -90.0000  top
+R18       10k                   SM0603_Resistor_libcms                               82.0980   -58.1800    0.0000  top
+R19       10k                   SM0603_Resistor_libcms                               85.5420   -57.7800  180.0000  top
 ST1       Screw_Terminal_01x01  7773                                                 53.1900   -18.0200  -90.0000  top
 ST2       Screw_Terminal_01x01  7773                                                 53.1900   -97.4400  -90.0000  top
 U1        ADV7280xCP            LFCSP-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm_ThermalVias    65.6000   -55.7775  -90.0000  top
 U2        Si2177                QFN-28-1EP_4x4mm_Silabs                              90.7200   -65.1400  -90.0000  top
 U3        PCM1808PWR            TSSOP-14_4.4x5mm_P0.65mm                             77.1500   -51.4100  -90.0000  top
 U4        TPS62A01              SOT-563                                              83.7500   -44.4000  180.0000  top
-Y1        24MHz                 Crystal_HC49-U_Vertical                              92.1200   -73.5100    0.0000  top
+Y1        24MHz                 Crystal_SMD_SeikoEpson_FA128-4Pin_2.0x1.6mm          94.7650   -74.3150  180.0000  top
 ## End
