@@ -6,8 +6,8 @@
 
   (title_block
     (title "Extra AV out board")
-    (date "2023-12-11")
-    (rev "1.1")
+    (date "2024-04-05")
+    (rev "1.2")
   )
 
   (lib_symbols
@@ -2514,12 +2514,14 @@
   (no_connect (at 39.37 59.69) (uuid 30c8de94-1af4-4934-8093-13100f553f46))
   (no_connect (at 26.67 54.61) (uuid 36651012-4ab7-4218-a224-5121e333508d))
   (no_connect (at 26.67 105.41) (uuid 428458cc-4b72-4b1d-a9e8-3d2ad83199a4))
+  (no_connect (at 247.65 154.94) (uuid 4473f516-bee7-4b28-bd70-019a3913fa19))
   (no_connect (at 26.67 57.15) (uuid 5bdb5756-1abf-43c8-be8b-1183b0abde9f))
   (no_connect (at 143.51 158.75) (uuid 5ee0bd6c-aaee-4666-8c76-54515098edd3))
   (no_connect (at 256.54 110.49) (uuid 6dfae922-1aaa-44e8-b545-23bd37a168f6))
   (no_connect (at 26.67 59.69) (uuid 82588ecd-b32f-46d3-b586-1e523b544d39))
   (no_connect (at 256.54 90.17) (uuid 9de15e21-ce5c-4aa8-b420-02b41621c1b7))
   (no_connect (at 256.54 95.25) (uuid a246aa28-c902-4c1e-945d-1c1f3cb25203))
+  (no_connect (at 247.65 157.48) (uuid b5816b2a-7ffd-426b-8490-e95cf76f94c7))
   (no_connect (at 143.51 153.67) (uuid bf9eca80-0046-4d9e-8433-9405a06b9d43))
   (no_connect (at 39.37 57.15) (uuid bfed493a-3358-4d62-9d48-7441b079ab3c))
   (no_connect (at 143.51 156.21) (uuid d677cd4d-4a97-4ec3-bf5b-0d65c0f4f1a8))
@@ -4601,7 +4603,7 @@
     (property "Value" "PLT133/T10W" (at 231.14 30.48 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "custom_components:EAPLRAA4" (at 240.03 35.56 0)
+    (property "Footprint" "custom_components:PLT133" (at 240.03 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 240.03 35.56 0)

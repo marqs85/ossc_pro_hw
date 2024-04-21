@@ -1,5 +1,5 @@
-### Footprint positions - created on 2024-01-29T21:56:05 EET ###
-### Printed by KiCad version 7.0.10+dfsg-1
+### Footprint positions - created on 2024-04-05T15:40:35 EEST ###
+### Printed by KiCad version 7.0.11+dfsg-1
 ## Unit = mm, Angle = deg.
 ## Side : All
 # Ref     Val                   Package                                    PosX       PosY       Rot  Side
@@ -36,7 +36,7 @@ FB1       MPZ1608S102ATA00      SM0603_Resistor_libcms                  53.3480 
 FB2       MPZ1608S102ATA00      SM0603_Resistor_libcms                  53.3480   -80.1500    0.0000  top
 J1        Conn_02x25_Odd_Even   PinSocket_2x25_P2.54mm_Horizontal       48.9258   -27.2487    0.0000  top
 J2        SJ1-3533NG            Jack_3.5mm_CUI_SJ1-3533NG_Horizontal   102.6100   -82.1700  180.0000  top
-J3        PLT133/T10W           EAPLRAA4                               115.0000   -76.3450  180.0000  top
+J3        PLT133/T10W           PLT133                                 115.0000   -76.3450  180.0000  top
 J4        VGA                   VGA_CONN                                77.1200   -76.1300    0.0000  top
 R1        10k                   SM0603_Resistor_libcms                  82.1100   -68.7220   90.0000  top
 R2        470                   SM0603_Resistor_libcms                  98.7500   -67.5680   90.0000  top
