@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,7.0.11+dfsg-1*%
-%TF.CreationDate,2024-03-22T13:59:39+02:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.2+dfsg-1*%
+%TF.CreationDate,2024-05-25T23:21:13+03:00*%
 %TF.ProjectId,dexx_video_adapter,64657878-5f76-4696-9465-6f5f61646170,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Paste,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.11+dfsg-1) date 2024-03-22 13:59:39*
+G04 Created by KiCad (PCBNEW 8.0.2+dfsg-1) date 2024-05-25 23:21:13*
 %MOMM*%
 %LPD*%
 G01*
@@ -29,15 +29,20 @@ G04 Aperture macros list*
 20,1,$1+$1,$6,$7,$8,$9,0*
 20,1,$1+$1,$8,$9,$2,$3,0*%
 G04 Aperture macros list end*
-%ADD10RoundRect,0.225000X0.225000X0.375000X-0.225000X0.375000X-0.225000X-0.375000X0.225000X-0.375000X0*%
-%ADD11R,0.635000X1.143000*%
+%ADD10R,0.635000X1.143000*%
+%ADD11RoundRect,0.225000X0.225000X0.375000X-0.225000X0.375000X-0.225000X-0.375000X0.225000X-0.375000X0*%
 G04 APERTURE END LIST*
 D10*
+%TO.C,R2*%
+X59470000Y-50710000D03*
+X57946000Y-50710000D03*
+%TD*%
+D11*
 %TO.C,D1*%
 X51580000Y-47310000D03*
 X48280000Y-47310000D03*
 %TD*%
-D11*
+D10*
 %TO.C,R1*%
 X54704000Y-47240000D03*
 X53180000Y-47240000D03*
