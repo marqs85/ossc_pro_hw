@@ -6,9 +6,9 @@ This repository is a collection of various files for OSSC Pro board, related ada
 Contents
 ---------------------------------------------------
 * OSSC Pro PCB (free version)
-  * Schematic is complete and matches production version 1.5
-  * Connector placement is complete and matches production version 1.5
-  * BOM is complete and matches production version 1.5
+  * Schematic is complete and matches production version 1.6
+  * Connector placement is complete and matches production version 1.6
+  * BOM is complete and matches production version 1.6
   * Placement of the components and routing are incomplete
 
 * Adapters (adapters/)
@@ -16,6 +16,7 @@ Contents
 
 * Expansion cards (expansions/)
   * [Extra AV output](expansions/extra_av_out) (VGA+audio)
+  * [Legacy AV input](expansions/legacy_av_in) (composite+s-video+RF)
   * [RAM board](expansions/ram_board) (low-latency pseudo-SRAM for FPGA cores)
 
 License
