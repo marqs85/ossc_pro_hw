@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 2.2,
+          "height": 1.23,
+          "width": 2.73
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -195,7 +195,9 @@
         0.2,
         0.25,
         0.35,
-        0.5
+        0.5,
+        0.7,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -500,7 +502,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.586,
@@ -820,6 +821,14 @@
       {
         "netclass": "I2C",
         "pattern": "/SDA_F"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/SCL_RF"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/SDA_RF"
       }
     ]
   },
