@@ -11,6 +11,9 @@ Contents
   * BOM is complete and matches production version 1.6
   * Placement of the components and routing are incomplete
 
+* OSSC Pro case (free version)
+  * [Link to external repository](https://github.com/fireball9199/OSSC-Pro-Case)
+
 * Adapters (adapters/)
   * [AV adapter](adapters/av_adapter) (SCART<->VGA<->YPbPr)
 

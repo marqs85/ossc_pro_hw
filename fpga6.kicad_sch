@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "095acfdf-0457-4d66-a1f6-cabd77b0f60d")
 	(paper "A4")
 	(title_block
@@ -11,9 +11,13 @@
 	)
 	(lib_symbols
 		(symbol "Device:CP1_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -109,9 +113,9 @@
 					)
 				)
 				(arc
-					(start 1.524 -0.762)
+					(start -1.524 -0.762)
 					(mid 0 -0.3734)
-					(end -1.524 -0.762)
+					(end 1.524 -0.762)
 					(stroke
 						(width 0.3048)
 						(type default)
@@ -159,11 +163,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -233,10 +242,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -245,10 +254,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -294,6 +303,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "custom_components:DVDD1v2"
 			(power)
@@ -371,7 +381,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -383,7 +393,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -397,7 +407,8 @@
 			(symbol "DVDD1v2_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "DVDD1v2"
 						(effects
 							(font
@@ -414,6 +425,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "custom_components:DVDD2v5"
 			(power)
@@ -491,7 +503,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -503,7 +515,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -517,7 +529,8 @@
 			(symbol "DVDD2v5_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "DVDD2v5"
 						(effects
 							(font
@@ -534,6 +547,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "custom_components:DVDD3v3"
 			(power)
@@ -611,7 +625,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -623,7 +637,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -637,7 +651,8 @@
 			(symbol "DVDD3v3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "DVDD3v3"
 						(effects
 							(font
@@ -654,6 +669,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "custom_components:VREFDQ_LPDDR2"
 			(power)
@@ -731,7 +747,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -743,7 +759,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -757,7 +773,8 @@
 			(symbol "VREFDQ_LPDDR2_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "VREFDQ_LPDDR2"
 						(effects
 							(font
@@ -774,6 +791,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -853,7 +871,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -870,7 +889,85 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "VCCIO7-8 pins"
+		(exclude_from_sim no)
+		(at 30.48 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1486b0bb-ffa7-4bd7-898e-50bb01d41d48")
+	)
+	(text "VREFB7-8 pins"
+		(exclude_from_sim no)
+		(at 29.21 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "363e09b6-0713-488a-992a-a3e70f18e034")
+	)
+	(text "VCCPD7-8 pins"
+		(exclude_from_sim no)
+		(at 67.31 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e2fe210-6da6-4791-aec5-d0303246565e")
+	)
+	(text "VCCINT pins"
+		(exclude_from_sim no)
+		(at 30.48 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9102eb19-acc2-4530-a450-670c0bd25f26")
+	)
+	(text "VCCPGM pins"
+		(exclude_from_sim no)
+		(at 29.21 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ce49419-e81b-4a32-b834-cf7946d715b0")
+	)
+	(text "VCCIO3-5 + VDDPD3-5 pins"
+		(exclude_from_sim no)
+		(at 30.48 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0be2698-ea96-4daa-a18d-7ebc3407a696")
+	)
+	(text "VCC_AUX + VCCA_FPLL + VCCBAT pins"
+		(exclude_from_sim no)
+		(at 30.48 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb0731e6-5629-4a42-97e3-5252342e6e7b")
 	)
 	(junction
 		(at 100.33 67.31)
@@ -3591,83 +3688,6 @@
 			(type default)
 		)
 		(uuid "ffefa619-7042-4115-98b0-cdc6886ad933")
-	)
-	(text "VCCIO7-8 pins"
-		(exclude_from_sim no)
-		(at 30.48 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1486b0bb-ffa7-4bd7-898e-50bb01d41d48")
-	)
-	(text "VREFB7-8 pins"
-		(exclude_from_sim no)
-		(at 29.21 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "363e09b6-0713-488a-992a-a3e70f18e034")
-	)
-	(text "VCCPD7-8 pins"
-		(exclude_from_sim no)
-		(at 67.31 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e2fe210-6da6-4791-aec5-d0303246565e")
-	)
-	(text "VCCINT pins"
-		(exclude_from_sim no)
-		(at 30.48 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9102eb19-acc2-4530-a450-670c0bd25f26")
-	)
-	(text "VCCPGM pins"
-		(exclude_from_sim no)
-		(at 29.21 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9ce49419-e81b-4a32-b834-cf7946d715b0")
-	)
-	(text "VCCIO3-5 + VDDPD3-5 pins"
-		(exclude_from_sim no)
-		(at 30.48 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a0be2698-ea96-4daa-a18d-7ebc3407a696")
-	)
-	(text "VCC_AUX + VCCA_FPLL + VCCBAT pins"
-		(exclude_from_sim no)
-		(at 30.48 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eb0731e6-5629-4a42-97e3-5252342e6e7b")
 	)
 	(symbol
 		(lib_id "Device:CP1_Small")
@@ -7658,7 +7678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "DVDD3v3"
+		(property "Value" "DVDD1v1"
 			(at 24.511 76.8858 0)
 			(effects
 				(font
@@ -9652,7 +9672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "DVDD2v5"
+		(property "Value" "AVCC2v5"
 			(at 24.511 103.5558 0)
 			(effects
 				(font
